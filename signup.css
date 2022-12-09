@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+.container {
+    background-position: top center;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/08/81/black-and-white-party-crowd-silhouette-vector-6170881.webp);
+    border-style: inset;
+    border-radius: 15px ;
+    border-color: #c5283dff;
+    border-width: 5px;
+}
+
+.sign-in-container {
+  background-position:  center;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/08/81/black-and-white-party-crowd-silhouette-vector-6170881.webp); 
+    border-style: inset;
+    border-radius: 15px ;
+    border-color: #c5283dff;
+    border-width: 5px;
+}
+
+.sign-up-body {
+  background-color: black;
+  margin: auto;
+  padding-top: 50px;
+  max-width: 300px;
+}
+
+
+.sign-in-body {
+  background-color: black;
+  margin: auto;
+  padding-top: 200px;
+  max-width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #c5283dff;
+  text-transform: uppercase;
+}
+
+#disclaimer {
+  text-align: justify;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.form-inputs {
+  text-align: center;
+  color:#c5283dff;
+  
+}
+.form-label {
+  padding: 75px;
+  color:#c5283dff;
+  font-weight: bolder;
+}
+.fullName {
+  text-align: center;
+  
+}
+.form-inputs {
+    
+}
+
+.user {
+  text-align: center;
+  
+}
+
+.pass {
+  text-align: center;
+}
+
+.e-mail {
+  text-align: center;
+}
+
+.birth {
+  text-align: center;
+}
+
+
+.create {
+  padding-left: 90px;
+  padding-bottom: 35px;
+}
+
+.creatAcctBtn {
+  background-color: #c5283dff;
+}
+
+#disclaimerText {
+    color: #c5283dff;
+}
