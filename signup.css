@@ -1,101 +1,250 @@
-
-
-
-
-
-
-
-
-.container {
+@media (max-width: 768px) {
+  .sign-up-container {
     background-position: top center;
     background-image: url(https://cdn.vectorstock.com/i/1000x1000/08/81/black-and-white-party-crowd-silhouette-vector-6170881.webp);
     border-style: inset;
-    border-radius: 15px ;
+    border-radius: 15px;
     border-color: #c5283dff;
     border-width: 5px;
-}
+  }
 
-.sign-in-container {
-  background-position:  center;
-    background-image: url(https://cdn.vectorstock.com/i/1000x1000/08/81/black-and-white-party-crowd-silhouette-vector-6170881.webp); 
+  .sign-in-container {
+    background-position: center;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/08/81/black-and-white-party-crowd-silhouette-vector-6170881.webp);
     border-style: inset;
-    border-radius: 15px ;
+    border-radius: 15px;
     border-color: #c5283dff;
     border-width: 5px;
-}
+  }
 
-.sign-up-body {
-  background-color: black;
-  margin: auto;
-  padding-top: 50px;
-  max-width: 300px;
-}
+  .sign-up-body {
+    background-color: black;
+    margin: auto;
+    padding-top: 50px;
+    max-width: 300px;
+  }
 
+  .sign-in-body {
+    background-color: black;
+    margin: auto;
+    padding-top: 200px;
+    max-width: 300px;
+  }
 
-.sign-in-body {
-  background-color: black;
-  margin: auto;
-  padding-top: 200px;
-  max-width: 300px;
-}
-
-h1 {
-  text-align: center;
-  color: #c5283dff;
-  text-transform: uppercase;
-}
-
-#disclaimer {
-  text-align: justify;
-  padding-right: 60px;
-  padding-left: 60px;
-}
-
-.form-inputs {
-  text-align: center;
-  color:#c5283dff;
-  
-}
-.form-label {
-  padding: 75px;
-  color:#c5283dff;
-  font-weight: bolder;
-}
-.fullName {
-  text-align: center;
-  
-}
-.form-inputs {
-    
-}
-
-.user {
-  text-align: center;
-  
-}
-
-.pass {
-  text-align: center;
-}
-
-.e-mail {
-  text-align: center;
-}
-
-.birth {
-  text-align: center;
-}
-
-
-.create {
-  padding-left: 90px;
-  padding-bottom: 35px;
-}
-
-.creatAcctBtn {
-  background-color: #c5283dff;
-}
-
-#disclaimerText {
+  h1 {
+    text-align: center;
     color: #c5283dff;
+    text-transform: uppercase;
+  }
+
+  #disclaimer {
+    text-align: justify;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .form-inputs {
+    text-align: center;
+    color: #c5283dff;
+    border-style: outset;
+    border-radius: 8px;
+    border-color: #c5283dff;
+  }
+  .form-label {
+    padding: 75px;
+    color: #c5283dff;
+    font-weight: bolder;
+  }
+
+  .fullName {
+    text-align: center;
+  }
+  .form-inputs {
+  }
+
+  .user {
+    text-align: center;
+  }
+
+  .pass {
+    text-align: center;
+  }
+
+  .e-mail {
+    text-align: center;
+  }
+
+  .birth {
+    text-align: center;
+  }
+
+  #disclaimerText {
+    color: #c5283dff;
+    text-transform: uppercase;
+  }
+
+  .createBtn {
+    margin-left: 80px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-style: outset;
+    border-radius: 8px;
+    border-color: #c5283dff;
+    border-width: 3px;
+    color: #c5283dff;
+    font-size: 18px;
+  }
+
+  .signInBtn {
+    margin-left: 105px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-style: outset;
+    border-radius: 8px;
+    border-color: #c5283dff;
+    border-width: 3px;
+    color: #c5283dff;
+    font-size: 20px;
+  }
 }
+
+
+
+
+
+
+
+
+@media (min-width: 780px) {
+  
+  
+  .sign-up-container {
+    background-position: center;
+    background-image:url(https://cdn.vectorstock.com/i/1000x1000/08/81/black-and-white-party-crowd-silhouette-vector-6170881.webp);
+    border-style: inset;
+    border-radius: 15px;
+    border-color: #c5283dff;
+    border-width: 5px;
+    
+  }
+
+  .sign-up-body {
+    background-color: black;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: auto;
+    
+  }
+  .sign-in-container {
+    background-position: center;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/08/81/black-and-white-party-crowd-silhouette-vector-6170881.webp);
+    border-style: inset;
+    border-radius: 15px;
+    border-color: #c5283dff;
+    border-width: 5px;
+  }
+
+  .sign-in-body {
+    background-color: black;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: auto;
+  }
+
+  h1 {
+    text-align: center;
+    color: #c5283dff;
+    text-transform: uppercase;
+  }
+
+  #disclaimer {
+    text-align: justify;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .form-inputs {
+    text-align: center;
+    color: #c5283dff;
+    border-style: outset;
+    border-radius: 8px;
+    border-color: #c5283dff;
+  }
+  .form-label {
+    
+    color: #c5283dff;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .label {
+    text-align: center;
+  }
+
+  .fullName {
+    text-align: center;
+  }
+
+  .user {
+    text-align: center;
+  }
+
+  .pass {
+    text-align: center;
+  }
+
+  .e-mail {
+    text-align: center;
+  }
+
+  .birth {
+    text-align: center;
+  }
+
+  #disclaimerText {
+    color: #c5283dff;
+    text-transform: uppercase;
+  }
+
+  .createBtn {
+    margin-bottom: 30px;
+    background-color: white;
+    border-style: outset;
+    border-radius: 8px;
+    border-color: #c5283dff;
+    border-width: 3px;
+    color: #c5283dff;
+    font-size: 18px;
+    
+  }
+
+  .signInBtn {
+    margin-bottom: 30px;
+    background-color: white;
+    border-style: outset;
+    border-radius: 8px;
+    border-color: #c5283dff;
+    border-width: 3px;
+    color: #c5283dff;
+    font-size: 20px;
+  }
+}
+
+.landing-container {
+  max-width: 780px;
+  margin: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:#696969 ;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+

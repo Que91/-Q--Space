@@ -12,8 +12,9 @@
       <div class="form">
         <h1>Sign In</h1>
         <form class="sign-up-form" action="">
-          <label class="form-label" for="username">Email Or Username</label>
-          <br />
+          <div class="label">
+            <label class="form-label" for="username">Email Or Username</label>
+          </div>
           <div class="user">
             <input
               class="form-inputs"
@@ -25,7 +26,9 @@
             />
           </div>
           <br />
-          <label class="form-label" for="password">Password</label> <br />
+           <div class="label">
+            <label class="form-label" for="password">Password</label>
+           </div>
           <div class="pass">
             <input
               class="form-inputs"
@@ -37,9 +40,12 @@
             />
           </div>
           <br />
-          <label for="create-acct-btn"></label>
-          <div class="create">
-            <button id="createAcctBtn">Sign In</button>
+          <label for="signInBtn"></label>
+            <div class="label">
+              <button class="signInBtn">
+                Sign In
+              </button>
+            </div>
           </div>
         </form>
       </div>

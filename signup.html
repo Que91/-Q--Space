@@ -8,32 +8,41 @@
   <title>Join |Q| Space</title>
   <link rel="stylesheet" href="signup.css">
 </head>
-<div class="container">
+<div class="sign-up-container">
   <body class="sign-up-body">
-    <div class="form">
-
       <h1>Sign Up</h1>
       <form class="sign-up-form" action="">
-        <label class="form-label" for="full-name">Full Name</label> <br />
+        <div class="label">
+          <label class="form-label" for="full-name">Full Name</label>
+        </div>
         <div class="fullName">
           <input class="form-inputs" id="full-name" type="text" name="full-name" placeholder="Full Name" required />
         </div>
         <br />
-        <label class="form-label" for="username">Username</label> <br />
+        <div class="label">
+          <label class="form-label" for="username">Username</label>
+        </div>
         <div class="user">
           <input class="form-inputs" id="username" type="text" name="Username" placeholder="Username" required />
         </div>
         <br />
-        <label class="form-label" for="password">Password</label> <br />
-        <div class="pass"><input class="form-inputs" id="password" type="password" name="password"
+        <div class="label">
+          <label class="form-label" for="password">Password</label>
+        </div>
+        <div class="pass">
+          <input class="form-inputs" id="password" type="password" name="password"
             placeholder="Password" required /></div>
         <br />
-        <label class="form-label" for="email">Email</label> <br />
+        <div class="label">
+          <label class="form-label" for="email">Email</label>
+        </div> 
         <div class="e-mail">
           <input class="form-inputs" id="email" type="email" name="email" placeholder="Email" required />
         </div>
         <br />
-        <label class="form-label" for="dob">Birthday</label> <br />
+        <div class="label">
+          <label class="form-label" for="dob">Birthday</label> <br />
+        </div>
         <div class="birth">
           <input class="form-inputs" id="dob" type="date" name="dob" placeholder="Date of Birth" required />
         </div>
@@ -52,15 +61,17 @@
         </div>
         </p>
         <br />
-
-        <label for="create-acct-btn"></label>
-        <div class="create">
-          <button class="createAcctBtn">
+        <label for="createBtn"></label>
+        <div class="label">
+          <button class="createBtn">
             Create Account
           </button>
         </div>
+
+        
+        
       </form>
-    </div>
+    
 
   </body>
 </div>
